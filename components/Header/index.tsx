@@ -16,7 +16,21 @@ const Header = ({ title = titleDefault }: any) => {
       <meta name="author" content={author} />
       <meta name="designer" content={author} />
       <meta name="publisher" content={author} />
-
+      {/* orbitron font */}
+      <link
+        href="https://fonts.googleapis.com/css?family=Orbitron:regular,500,600,700,800,900"
+        rel="stylesheet"
+      />
+      {/* saira font */}
+      <link
+        href="https://fonts.googleapis.com/css?family=Saira:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet"
+      />
+      {/* saira condensed font  */}
+      <link
+        href="https://fonts.googleapis.com/css?family=Saira+Condensed:100,200,300,regular,500,600,700,800,900"
+        rel="stylesheet"
+      />
       {/* Search Engine Optimization Meta Tags */}
       <title>{title}</title>
       <meta name="description" content={description} />
