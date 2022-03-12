@@ -3,9 +3,9 @@ import Typewriter from 'typewriter-effect'
 
 const Home = () => {
   return (
-    <main id="home" className="bg-galaxy-4 bg-cover">
-      <div className="pt-48">
-        <div className="mb-2 text-center font-display text-3xl text-white sm:text-6xl lg:text-9xl">
+    <main id="home" className="h-screen w-full bg-galaxy-4 bg-cover">
+      <div className="pt-48 lg:pt-28 ">
+        <div className="mb-2 text-center font-display text-3xl text-white sm:text-6xl lg:text-8xl">
           <Typewriter
             onInit={(typewriter) => {
               typewriter.typeString('Hello!').pauseFor(2500).start()
