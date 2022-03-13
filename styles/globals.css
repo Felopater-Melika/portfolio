@@ -15,3 +15,7 @@ body {
 main {
   padding: 0 10%;
 }
+
+form {
+  margin: 0 auto;
+}
