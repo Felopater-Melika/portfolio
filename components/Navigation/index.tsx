@@ -1,4 +1,3 @@
-import React from 'react'
 import { FiMail, FiHome, FiCode } from 'react-icons/fi'
 import { BsPerson } from 'react-icons/bs'
 

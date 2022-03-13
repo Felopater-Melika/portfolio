@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Projects = () => {
   return (
     <article className="flex h-screen w-full items-center justify-center bg-galaxy-2 bg-cover">
