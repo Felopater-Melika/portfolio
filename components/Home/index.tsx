@@ -1,11 +1,15 @@
 import { Element } from 'react-scroll'
+import { motion } from 'framer-motion'
 
 const Home = () => {
   return (
     <Element name="home">
-      <main
+      <motion.main
         id="home"
         className="mt-24 flex  h-full w-full flex-col items-center justify-center lg:h-screen"
+        initial={{ opacity: 0 }}
+        transition={{ ease: 'easeIn', duration: 0.5 }}
+        animate={{ opacity: 1 }}
       >
         <div>
           <div className=" text-center font-display text-3xl text-white sm:text-6xl lg:text-8xl">
@@ -22,7 +26,7 @@ const Home = () => {
           </h4>
         </div>
         <img src="/me3.png" width="300" className="lg:hidden" />
-      </main>
+      </motion.main>
     </Element>
   )
 }

@@ -1,4 +1,3 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next'
 import nodemailer from 'nodemailer'
 
@@ -30,7 +29,6 @@ export default async function handler(
       <p><strong>Message: </strong> ${message} </p><br>
       `,
     })
-
     console.log('Message Sent', emailRes.messageId)
   } catch (err) {
     console.log(err)
